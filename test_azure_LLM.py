@@ -3,8 +3,6 @@
     Date: 2025/5/26
     Description: 
         This script demonstrates how to use the Azure OpenAI service to generate a JSON file based on user input.
-        Biogen has subscribed to the Azure OpenAI service, and this script utilizes the Azure OpenAI Python SDK to interact with it.
-        Note: This script is not intended to be run directly. Instead, it serves as a template for integrating Azure OpenAI into an application.
         TBD: API key request from Jay is still pending.
 """
 import os

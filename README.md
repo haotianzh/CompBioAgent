@@ -11,6 +11,6 @@ This is an initial draft of **CompBioAgent**, currently implementing only the do
 
 * **`plot_h5ad.py`**: A script for generating various plots for single-cell RNA-seq data. It accepts a JSON file as input or can be invoked with a JSON object.
 * **`test_tool_calling.json`**: An example JSON file demonstrating how to call `plot_h5ad.py`.
-* **`test_azure_LLM.py`**: Due to Biogen's restrictions, direct LLM calls are not allowed. However, Biogen provides access to LLM services via Azure, which can be integrated into CompBioAgent. See this file for more details.
+* **`test_azure_LLM.py`**: Azure OPENAI test.
 * **`prompt.py`**: A prompt template used to instruct the LLM to extract information from user queries.
 * **`compbioagent.py`**: The main entry point of the project.
