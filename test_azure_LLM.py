@@ -11,7 +11,7 @@ import os
 import base64
 from openai import AzureOpenAI
 
-endpoint = os.getenv("ENDPOINT_URL", "https://azeuseasoaiddpp01.openai.azure.com/")
+endpoint = os.getenv("ENDPOINT_URL", "endpoint_url_here")  # Replace with your Azure OpenAI endpoint URL
 deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4.1")
 subscription_key = os.getenv("AZURE_OPENAI_API_KEY", "")
 
