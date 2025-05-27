@@ -1,0 +1,20 @@
+{
+    "h5ad": "/edgehpc/dept/compbio/data/shared/CartaBio/h5ad/1.h5ad",
+    "genes": [
+        "TP53",
+        "BRCA1"
+    ],
+    "groups": {"cell_type": []},
+    "plot": "dotplot",
+    "var_col": "feature_name",
+    "options":{
+        "img_width" : 15,
+        "img_height" : 5,
+        "dotsize": 2,
+        "cutoff": 0.1,
+        "palette" : "Set3",
+        "img_format": "png",
+        "img_id": "",
+        "img_html": true
+    }
+}
